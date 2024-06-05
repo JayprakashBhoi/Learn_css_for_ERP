@@ -26,7 +26,8 @@ button{
   
  }
  #logo{
-    width:20vw;
+    width:10vw;
+    height:4vw;
  }
 
  /* #logo{
@@ -124,9 +125,10 @@ font-family: dafont;                  /* font-family  */
        display: none;
        
     }
-    /* #logo{
-        color: blue;
-    } */
+    #logo{
+        width:30vw;
+        height: 10vw;
+    }
     #section{
         background-color: rgb(255, 255, 255)
         ;
