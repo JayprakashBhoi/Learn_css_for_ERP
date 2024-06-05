@@ -1,0 +1,183 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+ html,body{
+    width: 100%;
+    height: 100%;
+}
+@font-face {
+    font-family: dafont;
+    src: url(font/Happy\ Memories.ttf);
+}
+button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ #nav{
+    background-color: rgb(53, 53, 255);
+    width:100%;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    border-bottom: 2px solid rgb(165, 0, 0);
+  
+ }
+ #logo{
+    width:20vw;
+ }
+
+ /* #logo{
+    color: aliceblue;
+    padding: 5px;
+    
+ } */
+ #manu{
+    color: aliceblue;
+    display: flex;
+    gap: 20px;
+    padding: 1vw 5vw;
+    align-items: center;
+    
+ } 
+ button {
+     color: aliceblue;
+     background-color: #ec2038;
+     padding: 10px;
+     margin: 5px;
+     border-radius: 5px;
+     border-style: hidden;
+     font-family:cursive;
+    
+ }
+ #nav i{
+    padding:10px;
+    display:none;
+ }
+
+ 
+
+ #section{
+    width: 100%;
+    height: calc(100% - 50px);
+    display:flex;
+
+ }
+ #left{
+    padding: 5vw;
+    height: 100%;
+    width: 50%;
+   
+    
+   
+ }
+ #right {
+    padding: 5vw;
+    padding-bottom: 10vw;
+     height: 100%;
+     width:50%;
+
+ }
+#left h1 span {
+    color: #ECC420;
+}
+ #left h1,p {
+    margin: 5px;
+font-family: dafont;                  /* font-family  */
+ }
+
+ #left p{
+  font-size:3vw;
+ }
+#left h1{
+    font-size: 5vw;
+}
+
+#right img{
+    width: 100%;
+    height: 100%;
+} 
+#resume{
+    font-size: 2vw;
+}
+#left h1 span {
+    color: #ec2038;
+}
+
+#left p span {
+    color: #ECC420;
+}
+ 
+
+
+ @media (max-width:600px) {
+    #manu i{
+        display:inline;
+        color: blue;
+    }
+    #nav{
+        background-color: aliceblue;
+    }
+    #manu h4{
+       display: none;
+       
+    }
+    /* #logo{
+        color: blue;
+    } */
+    #section{
+        background-color: rgb(255, 255, 255)
+        ;
+    }
+    #sing_in{
+        padding: 5px 10px;
+          font-size: small;
+          border-radius: 5px;
+        
+    }
+
+    button{
+        background-color: blue;
+        color: aliceblue;
+        
+    }
+
+
+    #resume{
+            padding: 4vw 7vw;
+            font-size:5vw;
+            border-radius: 5px;
+        }
+
+#left h1,p {
+    margin: 5vw;
+}
+#left{
+    width:100%;
+    height: 60%;
+}
+
+#right{
+   width:100%;
+   height: 40%;
+}
+#left h1{
+    font-size:11vw;
+    
+}
+#left p{
+    font-size: 5vw;
+}
+#left h1 span{
+    color:#ECC420;
+}
+#left p span {
+    color: #ec2038;
+}
+#section{
+ flex-direction: column;
+}
+
+}
